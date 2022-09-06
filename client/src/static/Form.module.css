@@ -1,0 +1,10 @@
+.container{
+    min-width: none;
+    background-color:rgb(224, 196, 220);
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding: auto;
+    
+};
