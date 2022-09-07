@@ -14,7 +14,7 @@ create:(req,res)=>{
 },
 //Read
 getAll:(req,res)=>{
-    Joke.find({})
+    Product.find({})
     .then((products)=>{
         res.json({products:products})
     })
