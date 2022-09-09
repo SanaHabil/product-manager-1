@@ -14,3 +14,20 @@ body {
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
 }
+.btn{
+    padding:5px;
+    border-radius:5px;
+    color:rgba(155, 34, 207, 0.787);
+    border:none;
+    font-size:12px;
+    transition:.2s;
+  
+}
+hover:hover {
+    transform:scale(1.09)
+  }
+  
+  .img-hover:hover{
+    transform:scale(1.3)
+  }
+  

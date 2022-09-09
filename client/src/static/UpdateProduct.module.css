@@ -9,6 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .card{
     border:2px solid whitesmoke;
@@ -20,33 +21,22 @@ body {
     background-color:#fdf74478;
     margin:10px;
     padding:20px;
-    box-shadow: grey;
-
+    box-shadow: grey
+    
 
 }
 .btn{
     padding:5px;
-    border-radius:8px;
+    border-radius:10px;
     color: #fda085;
     border:none;
-    font-size:20px;
+    font-size:12px;
     transition:.2s;
-    size: 40px;
-    margin-top:200px;
-    cursor: pointer;
-    
+
 }
-.buttonsDiv{
-    display:flex;
-    justify-content:space-between;
-}
-.btn:hover {
+hover:hover {
 transform:scale(1.09)
 }
-.click:hover {
-    background: #fdf74478;
-}
-
 
 .img-hover:hover{
 transform:scale(1.3)

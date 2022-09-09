@@ -4,6 +4,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Form from './components/Form';
 import All from './components/All';
 import OneProduct from './components/OneProduct';
+import UpdateProduct from './components/UpdateProduct';
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <Route element ={ <Form products={products} setProducts={setProducts} />} path="/home" defualt />
         <Route element ={ <All products={products} setProducts={setProducts} />} path="/home/products" />
         <Route element ={ <OneProduct products={products} setProducts={setProducts} />} path="/home/products/:id" />
-
+        <Route element={<UpdateProduct />} path="/home/products/update/:id" />
 
       </Routes>
       </BrowserRouter>
